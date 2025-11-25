@@ -1,0 +1,13 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml
+include setup.py
+recursive-include opendata *.py
+recursive-include opendata *.md
+recursive-include opendata *.txt
+recursive-include tests *.py
+recursive-include docs *.rst
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include examples *.md

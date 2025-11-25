@@ -1,0 +1,2 @@
+[console_scripts]
+opendata = opendata.main:main

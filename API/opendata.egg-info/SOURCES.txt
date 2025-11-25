@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+opendata/README.md
+opendata/__init__.py
+opendata/api_utils.py
+opendata/entity_parser.py
+opendata/main.py
+opendata/requirements.txt
+opendata/traverser.py
+opendata.egg-info/PKG-INFO
+opendata.egg-info/SOURCES.txt
+opendata.egg-info/dependency_links.txt
+opendata.egg-info/entry_points.txt
+opendata.egg-info/requires.txt
+opendata.egg-info/top_level.txt

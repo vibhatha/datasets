@@ -1146,7 +1146,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Example usage
-    base_path = "data" 
+    base_path = "data/statistics" 
     if os.path.exists(base_path):
         print(f"Traversing {base_path}..." + (f" for year {args.year}" if args.year else ""))
         data = client.traverse_folder(base_path, year_filter=args.year)

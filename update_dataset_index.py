@@ -92,7 +92,7 @@ def create_zip_for_section(section_path, section_name, output_dir="docs/download
     
     return zip_filename
 
-def generate_all_zips(data_path="data", output_dir="docs/downloads"):
+def generate_all_zips(data_path="data/statistics", output_dir="docs/downloads/statistics"):
     """Generate ZIP files for all major sections"""
     zip_files = {}
     
@@ -112,7 +112,7 @@ def generate_all_zips(data_path="data", output_dir="docs/downloads"):
     
     return zip_files
 
-def scan_data_folder(data_path="data", zip_files=None):
+def scan_data_folder(data_path="data/statistics", zip_files=None):
     """Scan the data folder and generate the structure"""
     if not os.path.exists(data_path):
         print(f"Error: {data_path} folder not found!")
@@ -191,7 +191,7 @@ def scan_data_folder(data_path="data", zip_files=None):
     
     return process_folder(data_path, zip_files=zip_files)
 
-def count_datasets(data_path="data"):
+def count_datasets(data_path="data/statistics"):
     """Count total datasets"""
     count = 0
     for root, dirs, files in os.walk(data_path):

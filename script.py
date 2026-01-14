@@ -1,7 +1,7 @@
 import os
 import copy
 
-BASE_DIR = "data"
+BASE_DIR = "data/statistics"
 
 # Template for ministries
 TEMPLATES = {

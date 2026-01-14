@@ -242,7 +242,7 @@ class Verifier:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Verify data ingestion.")
-    parser.add_argument("--dir", type=str, default="data", help="Data directory path")
+    parser.add_argument("--dir", type=str, default="data/statistics", help="Data directory path")
     parser.add_argument("--year", type=str, help="Specific year to verify (affects local count only)", default=None)
     parser.add_argument("--url", type=str, default="http://0.0.0.0:8081", help="OpenGIN Query API URL")
     
